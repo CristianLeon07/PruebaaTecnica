@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7000000">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/fotoDetalle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:scaleType="centerCrop"
+                app:circularflow_defaultRadius="15dp"
+                app:srcCompat="@mipmap/asteroidess" />
+            <TextView
+                android:id="@+id/btnAtras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imgfondo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D7000000" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/nombreAsteroide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:padding="5dp"
+                    android:text="Nombre del juego"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0" />
+
+                <TextView
+                    android:id="@+id/magnitudAbsoluta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:padding="5dp"
+                    android:text="@string/tvMagnitud"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/nombreAsteroide"
+                    app:layout_constraintVertical_bias="0" />
+
+                <TextView
+                    android:id="@+id/tvmagnitudAbsoluta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:padding="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="13dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toEndOf="@+id/magnitudAbsoluta"
+                    app:layout_constraintTop_toBottomOf="@+id/nombreAsteroide"
+                    app:layout_constraintVertical_bias="0" />
+
+                <TextView
+                    android:id="@+id/diametroEstimado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:padding="5dp"
+                    android:text="@string/tvDiametro"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvmagnitudAbsoluta"
+                    app:layout_constraintVertical_bias="0" />
+
+                <TextView
+                    android:id="@+id/tvDiametroEstimado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:padding="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toEndOf="@+id/diametroEstimado"
+                    app:layout_constraintTop_toBottomOf="@+id/tvmagnitudAbsoluta"
+                    app:layout_constraintVertical_bias="0" />
+
+
+                <TextView
+                    android:id="@+id/velocidad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:padding="5dp"
+                    android:text="@string/tvVelocidad"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/diametroEstimado"
+                    app:layout_constraintVertical_bias="0" />
+
+                <TextView
+                    android:id="@+id/tvVelocidad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:padding="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toEndOf="@+id/velocidad"
+                    app:layout_constraintTop_toBottomOf="@+id/diametroEstimado"
+                    app:layout_constraintVertical_bias="0" />
+
+                <TextView
+                    android:id="@+id/distancia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:padding="5dp"
+                    android:text="@string/tvDistancia"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/velocidad"
+                    app:layout_constraintVertical_bias="0" />
+
+                <TextView
+                    android:id="@+id/tvDistancia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:padding="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toEndOf="@+id/distancia"
+                    app:layout_constraintTop_toBottomOf="@+id/velocidad"
+                    app:layout_constraintVertical_bias="0" />
+
+                <TextView
+                    android:id="@+id/fecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:padding="5dp"
+                    android:text="@string/tvFecha"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/distancia"
+                    app:layout_constraintVertical_bias="0" />
+
+                <TextView
+                    android:id="@+id/tvFecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:padding="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toEndOf="@+id/fecha"
+                    app:layout_constraintTop_toBottomOf="@+id/distancia"
+                    app:layout_constraintVertical_bias="0" />
+
+                <TextView
+                    android:id="@+id/tvPeligro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:padding="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/fecha"
+                    app:layout_constraintVertical_bias="0" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

@@ -1,0 +1,32 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«™ÄŠ8Ôôøû0
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«™ÄŠ8Ôôøû0
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«™ÄŠ8Ôôøû0
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«™ÄŠ8Ôôøû0
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«™ÄŠ8 Ôôøû0
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«™ÄŠ8 Ôôøû0
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷–¾8ıÀõøû0
+r	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é’Êûÿÿÿÿ8ıÀõøû0
+r	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä ú—úÿÿÿÿ8ıÀõøû0
+r	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú»¡ïøÿÿÿÿ8ıÀõøû0
+r	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÏûêúÿÿÿÿ8ıÀõøû0
+r	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¯­ûÿÿÿÿ8ıÀõøû0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚŞºÕ
+x	java:S116"^Rename this field "close_approach_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í‹©âûÿÿÿÿ
+x	java:S116"cRename this field "close_approach_date_full" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óä˜©
+~	java:S116"dRename this field "epoch_date_close_approach" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—«´³ÿÿÿÿÿ
+q	java:S116"\Rename this field "relative_velocity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ…‘­
+l	java:S116"XRename this field "miss_distance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûöğ9
+r	java:S116	"XRename this field "orbiting_body" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è‹ôĞûÿÿÿÿ
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÀÜ¾8„Áõøû0
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷–¾8…Áõøû0
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì²½õ8…Áõøû0
+o	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é’Êûÿÿÿÿ8…Áõøû0
+j	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¸ûé8…Áõøû0
+o	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä ú—úÿÿÿÿ8†Áõøû0
+j	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âŒ8†Áõøû0
+o	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú»¡ïøÿÿÿÿ8†Áõøû0
+o	java:S1004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Øª™øÿÿÿÿ8‡Áõøû0
+o	java:S1008"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÏûêúÿÿÿÿ8‡Áõøû0
+o	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µŸ¨÷şÿÿÿÿ8‡Áõøû0
+o	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¯­ûÿÿÿÿ8ˆÁõøû0

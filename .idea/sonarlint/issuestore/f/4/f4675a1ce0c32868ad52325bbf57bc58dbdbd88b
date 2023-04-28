@@ -1,0 +1,12 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßªÓ—ÿÿÿÿÿ8¦Ëöøû0
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßªÓ—ÿÿÿÿÿ8¦Ëöøû0
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Û´·ûÿÿÿÿ8‡÷øû0
+m	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€›ùˆ8‡÷øû0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚŞºÕ
+r	java:S116"XRename this field "element_count" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı§›ıÿÿÿÿ
+w	java:S116"]Rename this field "near_earth_objects" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÜüÒıÿÿÿÿ
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆôÁ©ıÿÿÿÿ8•÷øû0
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Û´·ûÿÿÿÿ8•÷øû0
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¢õ½8•÷øû0
+j	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€›ùˆ8–÷øû0
